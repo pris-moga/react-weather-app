@@ -1,0 +1,134 @@
+.Weather .first-row {
+  margin-top: 20px;
+}
+
+.Weather h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #323643;
+}
+
+.Weather h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Weather .actual-temp {
+  font-size: 80px;
+  font-weight: 500;
+  color: #323643;
+  display: inline-block;
+}
+
+.Weather .actual-weather-icon {
+  text-align: right;
+}
+
+.Weather .max-temp {
+  font-weight: 600;
+}
+
+.Weather .my-location {
+  height: 23px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 13px;
+  color: #606470;
+  transition: all 150ms ease-in-out;
+}
+
+.Weather .my-location:hover {
+  color: #323643;
+}
+
+.Weather .search {
+  width: 50%;
+  height: 23px;
+  border-radius: 10px;
+  border: 2px solid #606470a2;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.Weather .search-button {
+  width: 27%;
+  height: 23px;
+  border-radius: 10px;
+  border: 2px solid #d4d6dd;
+  background-color: #d4d6dd;
+  color: #606470;
+  transition: all 150ms ease-in-out;
+}
+
+.Weather .search-button:hover {
+  border: 2px solid #606470;
+  background-color: #606470;
+  color: #d4d6dd;
+  cursor: pointer;
+}
+
+.Weather .search-input {
+  font-size: 11px;
+  text-align: right;
+}
+
+.Weather .temp-icon {
+  color: #9fa3af;
+  font-size: 14px;
+}
+
+.Weather .temps-and-description {
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.Weather .unit {
+  display: inline-block;
+  position: relative;
+  top: -40px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #606470;
+  transition: all 150ms ease-in-out;
+  text-decoration: none;
+}
+
+.Weather .unit:hover {
+  color: #494b52;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Weather .unit.active {
+  font-weight: 500;
+}
+
+.Weather .unit-division {
+  display: inline-block;
+  position: relative;
+  top: -40px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.Weather .weather-description {
+  font-size: 15px;
+  text-align: right;
+}
+
+.Weather .weather-description::first-letter {
+  text-transform: capitalize;
+}
+
+.Weather .weather-icon-big {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.Weather .weather-info {
+  font-size: 15px;
+  text-align: right;
+}
+
+.Weather .wind {
+  padding-top: 11px;
+}
