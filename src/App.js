@@ -19,7 +19,11 @@ export default function App() {
           Priscilla Morales
         </a>{" "}
         and is{" "}
-        <a href="/" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/pris-moga/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           open-sourced on GitHub.
         </a>{" "}
