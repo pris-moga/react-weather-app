@@ -6,11 +6,12 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="back-rectangle-one">
-        <div className="container">
-          <Weather />
-        </div>
+      <div className="back-rectangle-one"></div>
+      <div className="back-rectangle-two"></div>
+      <div className="container">
+        <Weather />
       </div>
+
       <footer>
         This project was coded by{" "}
         <a

@@ -5,7 +5,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <div className="row first-row">
+      <div className="row">
         <div className="col">
           <h1>Mexico City</h1>
           <h2>January 10, 1:50 pm</h2>
