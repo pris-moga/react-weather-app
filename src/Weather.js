@@ -1,5 +1,7 @@
 import React from "react";
 
+import broken from "./images/broken-clouds.png";
+
 import "./Weather.css";
 
 export default function Weather() {
@@ -48,11 +50,7 @@ export default function Weather() {
           </a>
         </div>
         <div className="col actual-weather-icon">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-            alt="..."
-            className="weather-icon-big"
-          />
+          <img src={broken} alt="..." className="weather-icon-big" />
         </div>
       </div>
       <div className="row temps-and-description">
