@@ -9,8 +9,20 @@
   font-weight: 500;
 }
 
+.Weather a {
+  text-decoration: none;
+  color: #79aad8;
+  transition: all 150ms ease-in-out;
+}
+
+.Weather a:hover {
+  text-decoration: none;
+  color: #aa79d8;
+  cursor: pointer;
+}
+
 .Weather .actual-temp {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 500;
   color: #323643;
   display: inline-block;
@@ -18,6 +30,12 @@
 
 .Weather .actual-weather-icon {
   text-align: right;
+}
+
+.Weather footer {
+  font-size: 11px;
+  margin-top: 200px;
+  text-align: center;
 }
 
 .Weather .max-temp {
@@ -74,14 +92,14 @@
 }
 
 .Weather .temps-and-description {
-  margin-top: 13px;
+  margin-top: 25px;
   font-size: 15px;
 }
 
 .Weather .unit {
   display: inline-block;
   position: relative;
-  top: -40px;
+  top: -35px;
   font-size: 25px;
   font-weight: 300;
   color: #606470;
@@ -102,7 +120,7 @@
 .Weather .unit-division {
   display: inline-block;
   position: relative;
-  top: -40px;
+  top: -35px;
   font-size: 25px;
   font-weight: 300;
 }
@@ -112,12 +130,8 @@
   text-align: right;
 }
 
-.Weather .weather-description::first-letter {
-  text-transform: capitalize;
-}
-
 .Weather .weather-icon-big {
-  width: 70%;
+  width: 60%;
   padding-top: 20px;
 }
 
