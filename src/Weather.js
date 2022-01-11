@@ -58,7 +58,7 @@ export default function Weather(props) {
             <div>Feels like {weatherData.feelsLike}°</div>
           </div>
         </div>
-        <div className="row mt-1">
+        <div className="row ">
           <div className="col">
             <div className="actual-temp">{weatherData.temperature}</div>
             <a href="/" className="unit active">

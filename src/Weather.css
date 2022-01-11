@@ -22,7 +22,7 @@
 }
 
 .Weather .actual-temp {
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 500;
   color: #323643;
   display: inline-block;
@@ -33,7 +33,7 @@
 }
 
 .Weather footer {
-  font-size: 11px;
+  font-size: 10px;
   margin-top: 200px;
   text-align: center;
 }
@@ -92,7 +92,7 @@
 }
 
 .Weather .temps-and-description {
-  margin-top: 25px;
+  margin-top: 15px;
   font-size: 15px;
 }
 
