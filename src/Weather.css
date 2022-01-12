@@ -57,7 +57,7 @@
 }
 
 .Weather .search {
-  width: 50%;
+  width: 55%;
   height: 23px;
   border-radius: 10px;
   border: 2px solid #606470a2;
@@ -65,7 +65,7 @@
 }
 
 .Weather .search-button {
-  width: 27%;
+  width: 25%;
   height: 23px;
   border-radius: 10px;
   border: 2px solid #f1f2f7;
@@ -138,6 +138,7 @@
 .Weather .weather-info {
   font-size: 15px;
   text-align: right;
+  margin-top: -10px;
 }
 
 .Weather .wind {
