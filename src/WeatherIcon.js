@@ -3,7 +3,6 @@ import React from "react";
 import brokenClouds from "./images/broken-clouds.png";
 import clearSky from "./images/clear-sky.png";
 import clearSkyNight from "./images/clear-sky-night.png";
-import cloud from "./images/cloud.png";
 import fewClouds from "./images/few-clouds.png";
 import fewCloudsNight from "./images/few-clouds-night.png";
 import mist from "./images/mist.png";
