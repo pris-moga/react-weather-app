@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import FormatDate from "./FormatDate";
 
 import broken from "./images/broken-clouds.png";
 
@@ -9,11 +10,10 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       city: response.data.name,
-      date: "January 10, 1:50 pm",
+      date: new Date(response.data.dt * 1000),
       wind: Math.round(response.data.wind.speed),
       feelsLike: Math.round(response.data.main.feels_like),
       temperature: Math.round(response.data.main.temp),
@@ -30,7 +30,9 @@ export default function Weather(props) {
         <div className="row">
           <div className="col">
             <h1>{weatherData.city}</h1>
-            <h2>{weatherData.date}</h2>
+            <h2>
+              <FormatDate date={weatherData.date} />
+            </h2>
           </div>
           <div className="col align-self-center search-input">
             <form>
@@ -46,7 +48,7 @@ export default function Weather(props) {
                 className="search-button me-1"
               />
               <button className="my-location">
-                <i class="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marker-alt"></i>
               </button>
             </form>
           </div>
@@ -80,11 +82,11 @@ export default function Weather(props) {
         <div className="row temps-and-description">
           <div className="col">
             <span>
-              <i class="fas fa-arrow-down temp-icon me-1"></i>
+              <i className="fas fa-arrow-down temp-icon me-1"></i>
             </span>
             <span>{weatherData.minTemp}°</span>
             <span>
-              <i class="fas fa-arrow-up temp-icon ms-2 me-1"></i>
+              <i className="fas fa-arrow-up temp-icon ms-2 me-1"></i>
             </span>
             <span className="max-temp">{weatherData.maxTemp}°</span>
           </div>
