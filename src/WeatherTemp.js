@@ -18,7 +18,7 @@ export default function WeatherTemp(props) {
   if (unit === "celsius") {
     return (
       <div>
-        <div className="actual-temp">{props.celsius}</div>
+        <div className="actual-temp me-2">{props.celsius}</div>
         <a href="/" className="unit active">
           °C
         </a>
@@ -31,7 +31,7 @@ export default function WeatherTemp(props) {
   } else {
     return (
       <div>
-        <div className="actual-temp">{Math.round(fahrenheit())}</div>
+        <div className="actual-temp me-2">{Math.round(fahrenheit())}</div>
         <a href="/" className="unit" onClick={showCelsius}>
           °C
         </a>
