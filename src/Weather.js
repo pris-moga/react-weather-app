@@ -3,8 +3,6 @@ import axios from "axios";
 import FormatDate from "./FormatDate";
 import WeatherInfo from "./WeatherInfo";
 
-import broken from "./images/broken-clouds.png";
-
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -19,7 +17,7 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
       feelsLike: Math.round(response.data.main.feels_like),
       temperature: Math.round(response.data.main.temp),
-      icon: broken,
+      icon: response.data.weather[0].icon,
       minTemp: Math.round(response.data.main.temp_min),
       maxTemp: Math.round(response.data.main.temp_max),
       description: response.data.weather[0].description,
