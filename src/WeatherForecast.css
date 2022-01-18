@@ -14,6 +14,10 @@
   padding-bottom: 10px;
 }
 
+.WeatherForecast .forecast-icon {
+  width: 60%;
+}
+
 .WeatherForecast .forecast-icon-container {
   height: 45px;
   padding-bottom: 50px;

@@ -40,7 +40,7 @@ export default function WeatherIcon(props) {
     <img
       src={codeMapping[props.code]}
       alt={props.alt}
-      className="weather-icon-big"
+      className={props.class}
     />
   );
 }
