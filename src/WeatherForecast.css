@@ -1,0 +1,29 @@
+.WeatherForecast {
+  margin-top: 60px;
+}
+
+.WeatherForecast .forecast-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.WeatherForecast .forecast-day {
+  color: #323643;
+  font-size: 15px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.WeatherForecast .forecast-icon-container {
+  height: 45px;
+  padding-bottom: 50px;
+}
+
+.WeatherForecast .forecast-max-temp {
+  color: #323643;
+  font-weight: 600;
+}
+
+.WeatherForecast .next-days {
+  font-size: 11px;
+}
