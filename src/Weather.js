@@ -22,6 +22,7 @@ export default function Weather(props) {
       minTemp: Math.round(response.data.main.temp_min),
       maxTemp: Math.round(response.data.main.temp_max),
       description: response.data.weather[0].description,
+      coords: response.data.coord,
     });
   }
 
@@ -71,7 +72,7 @@ export default function Weather(props) {
           </div>
         </div>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coords={weatherData.coords} />
         <footer>
           This project was coded by{" "}
           <a
