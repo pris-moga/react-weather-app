@@ -65,9 +65,6 @@ export default function Weather(props) {
                 value="Search"
                 className="search-button me-1"
               />
-              <button className="my-location">
-                <i className="fas fa-map-marker-alt"></i>
-              </button>
             </form>
           </div>
         </div>

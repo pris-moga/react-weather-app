@@ -43,21 +43,8 @@
   color: #323643;
 }
 
-.Weather .my-location {
-  height: 23px;
-  border: none;
-  background-color: rgba(0, 0, 0, 0);
-  font-size: 13px;
-  color: #606470;
-  transition: all 150ms ease-in-out;
-}
-
-.Weather .my-location:hover {
-  color: #323643;
-}
-
 .Weather .search {
-  width: 55%;
+  width: 65%;
   height: 23px;
   border-radius: 10px;
   border: 2px solid #606470a2;
@@ -84,6 +71,7 @@
 .Weather .search-input {
   font-size: 11px;
   text-align: right;
+  padding: 0px;
 }
 
 .Weather .temp-icon {
