@@ -89,28 +89,8 @@
   position: relative;
   top: -35px;
   font-size: 25px;
-  font-weight: 300;
-  color: #606470;
-  transition: all 150ms ease-in-out;
-  text-decoration: none;
-}
-
-.Weather .unit:hover {
-  color: #69b0f1;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.Weather .unit.active {
   font-weight: 600;
-}
-
-.Weather .unit-division {
-  display: inline-block;
-  position: relative;
-  top: -35px;
-  font-size: 25px;
-  font-weight: 300;
+  color: #606470;
 }
 
 .Weather .weather-description {
